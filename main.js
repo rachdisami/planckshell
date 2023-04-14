@@ -1,5 +1,5 @@
-import { CommandHandler } from './utils.js'
-import { commandsCallback } from './data.js'
+import { CommandHandler } from './public/utils.js'
+import { commandsCallback } from './public/data.js'
 
 const commandInput = document.getElementById('command-input');
 const insertDiv = document.querySelector('.insert');
