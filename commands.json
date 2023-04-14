@@ -1,0 +1,52 @@
+[
+    {
+        "name": "help",
+        "description": "- Short introduction about me.",
+        "content" : [],
+        "callback": "showHelp"
+    },
+    {
+        "name": "whois",
+        "description": "- Short introduction about me.",
+        "content" : ["Hello, <br> My name is Rachdi Sami, 33 yo, code monkey, passionate learner, python enjoyer and a fullstack web developer. <br> I love coding in Javascript, Typescript, Java, C++, Rust and Python, and have worked with frameworks like Angular, React, Vue and Django.<br> I amm always open for freelance work, just send me a message to <a class=\"text-tertiary-200 fs-400\" href=\"mailto:rachdi.sami@gmail.com\">rachdi.sami@gmail.com</a>."],
+        "callback": "showWhois"
+    },
+    {
+        "name": "projects",
+        "description": "- list projects I worked on.",
+        "content" : [
+            {"name": "Test", "url": "#", "description": "a short description of the project"}
+        ],
+        "callback": "showProjects"
+    },
+    {
+        "name": "skills",
+        "description": "- An overview of my skills.",
+        "content" : [
+            "UX/Ui Design",
+            "WorldPress, Django, Angular, React",
+            "C#, Java, Python, Vanilla/ES6/TS,C/C++, Rust, PHP",
+            "Git, Github",
+            "MYSQL, MongoDB"
+        ],
+        "callback": "showSkills"
+    },
+    {
+        "name": "socials",
+        "description": "- List social media where you can find me.",
+        "content" : [
+            {"name": "Youtube", "url": "#"},
+            {"name": "Twitter", "url": "#"},
+            {"name": "LinkedIn", "url": "#"},
+            {"name": "GitHub", "url": "#"}
+        ],
+        "callback": "showSocials"
+    },
+    {
+        "name": "clear",
+        "description": "- Clear the terminal.",
+        "content" : [],
+        "callback": "clearTerminal"
+    }
+
+]
